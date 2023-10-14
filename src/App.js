@@ -36,7 +36,7 @@ function App() {
   }
   window.addEventListener("resize", logInnerScreenSize);
   return (
-    <div className="select-none font-['Inconsolata'] h-screen w-screen flex justify-center items-center relative overflow-hidden bg-[#2F2F2F] min-[1367px]:bg-[red]">
+    <div className="select-none font-['Inconsolata'] h-screen w-screen flex justify-center items-center relative overflow-hidden bg-[#2F2F2F]">
       <SideNav w={w} />
       <Header w={w} />
       <div
